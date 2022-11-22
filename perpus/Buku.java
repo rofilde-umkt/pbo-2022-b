@@ -4,6 +4,8 @@ public class Buku {
     private String judul;
     private int tahun; 
     private int halaman; 
+    private Penulis penulis; 
+    private Penerbit penerbit;
 
     public Buku(String j,  int h) {
         this.judul = j; 
