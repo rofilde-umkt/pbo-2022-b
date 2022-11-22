@@ -1,3 +1,5 @@
+package perpus;
+
 public abstract  class Akademisi {
     private String nama;
     private String alamat; 

@@ -1,3 +1,5 @@
+package perpus;
+
 public class Penerbit {
     private String nama;
     private String alamat; 
