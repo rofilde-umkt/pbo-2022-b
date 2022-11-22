@@ -1,4 +1,5 @@
 import perpus.Buku;
+import perpus.Dosen;
 
 public class DaftarBuku {
     public static void main(String[] args) {
@@ -10,6 +11,9 @@ public class DaftarBuku {
         buku1.show();
         buku2.show();
         bukuZamanPurba.show();
+        
+
+        Dosen ali = new Dosen();
         
         
     }
