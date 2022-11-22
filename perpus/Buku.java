@@ -1,16 +1,16 @@
 package perpus; 
 
 public class Buku {
-    public String judul;
-    protected int tahun; 
+    private String judul;
+    private int tahun; 
     private int halaman; 
 
-    public void setData(String j,  int h) {
+    public Buku(String j,  int h) {
         this.judul = j; 
         this.halaman = h;
     }
 
-    public void setData(String j, int t, int h) {
+    public Buku(String j, int t, int h) {
         this.judul = j; 
         this.tahun = t;
         this.halaman = h;
